@@ -1,0 +1,54 @@
+@media only screen and (max-width:768px) {
+    .navigation{
+        overflow: hidden;
+        .navbar{
+            display: grid;
+            grid-template-columns: 1fr;
+            height: 100%;
+            .nav{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            img{
+                width: 40%;
+            }
+            .fa-solid{
+                display: inline;
+            }
+        }
+    }
+    .extra__navigation {
+        .extra__navbar {
+            width: 100%;
+            a{
+                font-size: 0.8rem;
+            }
+        }
+      }
+      .header{
+        background: none;
+        .banner{
+            width: 100%;
+        }
+      }
+      .about__content, .filter__content, .offers__content, .choose__content, .costumer__content, .footer__content{
+        grid-template-columns: 100%;
+    }
+    .contact__content{
+        form{
+            button{
+                width: 100%;
+            }
+        }
+    }
+    .filter .title {
+        font-size: 1.5rem;
+      }
+      .short{
+        height: 7vh;
+      }
+        .long{
+            height: 100%;
+        }      
+}
